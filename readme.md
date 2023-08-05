@@ -5,18 +5,17 @@ Este é um projeto criado a partir da vídeo aula do YouTube do Erick Wendel([Li
 Instalação
 
 Para instalar as dependências, execute o seguinte comando:
-
-npm install
+```npm install```
 
 Execução
 
 Para executar o servidor, utilize o seguinte comando:
 
-npm run dev
+```npm run dev```
 
 Para executar os testes, utilize o seguinte comando:
 
-npm test:dev
+```npm test:dev```
 
 Estrutura do Projeto
 
