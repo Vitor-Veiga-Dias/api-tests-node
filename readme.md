@@ -5,7 +5,7 @@ Este é um projeto criado a partir da vídeo aula do YouTube do Erick Wendel ([L
 Instalação
 
 Para instalar as dependências, execute o seguinte comando:
-```npm install```
+```npm ci```
 
 Execução
 
