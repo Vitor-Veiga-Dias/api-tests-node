@@ -17,20 +17,6 @@ Para executar os testes, utilize o seguinte comando:
 
 ```npm test:dev```
 
-Estrutura do Projeto
-
-Aqui está a estrutura geral do projeto:
-
-|-- app/
-|   |-- __tests__/
-|   |-- api.test.ts
-|   |-- helpers/
-|   |-- app.ts
-|   |-- constants.ts
-|-- package.json
-|-- tsconfig.json
-|-- .gitignore
-|-- README.md
 
 Créditos
 
