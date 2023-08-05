@@ -1,36 +1,33 @@
-Projeto API - Descrição do Projeto
+Projeto API com Testes - Descrição do Projeto
 
-Este é um projeto criado a partir da vídeo aula do YouTube do Erick Wendel([Link do canal](https://www.youtube.com/watch?v=SrpIo_V-ZCg&list=PLqFwRPueWb5cCzuDs5afwrybkDJoSD4no&index=2)). Nele, eu resolvi implementar a API em TypeScript e adicionar testes com Jest para aprimorar minhas habilidades em desenvolvimento e testes com essa tecnologia.
+Este é um projeto criado a partir da vídeo aula do YouTube do Erick Wendel([Link do canal](https://www.youtube.com/watch?v=SrpIo_V-ZCg&list=PLqFwRPueWb5cCzuDs5afwrybkDJoSD4no&index=2)). Nele, eu resolvi implementar a API em TypeScript e manter a ideia de  testes nativos em Node.js.
 
 Instalação
 
 Para instalar as dependências, execute o seguinte comando:
 
-```npm install```
+npm install
 
 Execução
 
 Para executar o servidor, utilize o seguinte comando:
 
-```npm run dev```
+npm run dev
 
 Para executar os testes, utilize o seguinte comando:
 
-``npx jest``
-
+npm test:dev
 
 Estrutura do Projeto
 
 Aqui está a estrutura geral do projeto:
 
-|-- src/
-|   |-- controllers/
-|   |-- routes/
-|   |-- models/
+|-- app/
+|   |-- __tests__/
+|   |-- api.test.ts
 |   |-- helpers/
 |   |-- app.ts
-|-- tests/
-|   |-- api.test.ts
+|   |-- constants.ts
 |-- package.json
 |-- tsconfig.json
 |-- .gitignore
@@ -38,8 +35,4 @@ Aqui está a estrutura geral do projeto:
 
 Créditos
 
-Projeto original do Erick Wendel: [Link do projeto no GitHub](https://github.com/ErickWendel/postman-is-slowing-you-down)
-
-Licença
-
-Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE para obter mais informações.
+Projeto original do Erick Wendel:[Link do projeto no GitHub](https://github.com/ErickWendel/postman-is-slowing-you-down)
